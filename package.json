@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://swanith1234.github.io/AdminPanel/",
+  "homepage": "https://swanith1234.github.io/AdminPanel",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
