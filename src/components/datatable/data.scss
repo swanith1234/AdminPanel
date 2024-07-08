@@ -1,0 +1,17 @@
+.active{
+  background-color:#A7FFA6;
+  color:green;
+  padding:10px;
+  border:1px solid greenyellow;
+  border-radius: 5px;
+  margin-top:7%;
+  height: fit-content;
+}
+.pending{
+  color:#D45722;
+  background-color: #D4AD22;
+  border-radius: 5px;
+}
+.delete:hover{
+  background-color: rgb(238, 157, 157);
+}

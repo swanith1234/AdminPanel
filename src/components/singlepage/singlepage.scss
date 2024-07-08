@@ -1,0 +1,54 @@
+
+.singlePage-info{
+  margin-left: 26%;
+margin-top: 100px;
+  top: 75px;
+.col-md-5{
+  height:300px;
+}
+
+
+}
+.information{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration:0.5s ;
+  .title{
+    font-size: 30px;
+    opacity: 0.7;
+  }
+  .main-content{
+    margin-top:20px;
+    display: flex;
+    justify-content: start;
+  gap:50px;
+  }
+  .content-info{
+    display: flex;
+    flex-direction: column;
+
+  }
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.profile-photo{
+  height:150px;
+  width:150px;
+  margin-top:10%;
+}
+.singlePage-chart{
+
+  transition-duration: 0.5s;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+.data-container{
+  margin-left: 26%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.heading{
+  color: gray;
+  background-color: red;
+}

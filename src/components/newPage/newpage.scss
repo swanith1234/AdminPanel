@@ -1,0 +1,45 @@
+.new{
+  margin-top: 80px;
+  margin-left:26%;
+
+}
+.newpage-top,.newpage-bottom{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:10px;
+  margin:20px;
+display: flex;
+justify-content: space-between;
+}
+h1{
+  color:lightgray;
+font-size:20px ;
+}
+.newpage-left{
+  flex:1;
+}
+.newpage-right{
+  flex:2
+}
+.photo-upload{
+  border:none;
+
+  height: 200px;
+  width:200px;
+  background-color: lightgray;
+  margin-left: 20%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  input{
+    width:50%;
+  }
+  textarea{
+    width:50%;
+  }
+ 
+}
+
+#file{
+  visibility: hidden;
+}

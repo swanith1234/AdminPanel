@@ -1,0 +1,74 @@
+.Navbar{
+  height:70px;
+display: flex;
+justify-content: space-between;
+width: 75%;
+  background-color: #fff !important;
+  margin-bottom: 0;
+ 
+ 
+}
+
+.placeholder{
+  display: flex;
+  height:fit-content;
+  border:0.1px solid #ccc;
+  border-radius: 5px;
+margin:15px;
+font-size: 20px;
+background-color: white !important;
+
+cursor: text !important;
+input{
+  border: none;
+  padding:2px 10px;
+  margin-right: 3px;
+
+&::placeholder{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+}
+
+.icon:hover{
+  color:blueviolet;
+  cursor: pointer;
+ 
+}
+
+input:active{
+  border:none;
+  cursor: pointer;
+ 
+
+}
+
+
+}
+.nav-right-icons{
+width:fit-content;
+  display:flex;
+  justify-content: space-evenly;
+  align-content: center;
+
+  .icon{
+    margin-top:1rem;
+    margin-right: 20px;
+    cursor:pointer;
+    transition-duration: 0.3s;
+    &:hover{
+      transform: scale(1.1);
+    }
+    img{
+      height:35px;
+      width:35px;
+      border-radius:50%;
+      
+    }
+  }
+
+ 
+}
+

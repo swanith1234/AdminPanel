@@ -1,0 +1,19 @@
+img{
+  height:50px;
+  width:50px;
+  border: 0.5px solid gray;
+  border-radius: 50%;
+
+}
+.approved{
+  background-color: rgb(188, 239, 188);
+  color:green;
+  padding:5px 10px;
+  border-radius: 5px;
+}
+.pending{
+  background-color: rgb(242, 242, 215);
+  color:rgb(252, 252, 0);
+  padding:5px 10px;
+  border-radius: 5px;
+}
